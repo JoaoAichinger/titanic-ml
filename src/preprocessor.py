@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-def process(df):
-
+def preprocess(df):
+    
     #Remove Useless Columns
     df = df.drop(columns='Cabin')
 
@@ -21,5 +21,13 @@ def process(df):
     scaler = StandardScaler()
     df['Age'] = scaler.fit_transform(df[['Age']])
     df['Fare'] = scaler.fit_transform(df[['Fare']])
+
+    #Create Features
+    df['FamilySize'] = df['SibSp'] + df['Parch'] + 1
+    df['isAlone'] = False
+    df.loc[df['FamilySize'] == 1, 'isAlone'] = True
+
+    #Drop columns processed for features
+    df = df.drop(columns=['SibSp', 'Parch'])
 
     return df
