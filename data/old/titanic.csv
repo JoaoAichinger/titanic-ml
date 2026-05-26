@@ -1,0 +1,892 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S
+2,1,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,1,0,PC 17599,71.2833,C85,C
+3,1,3,"Heikkinen, Miss. Laina",female,26,0,0,STON/O2. 3101282,7.925,,S
+4,1,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35,1,0,113803,53.1,C123,S
+5,0,3,"Allen, Mr. William Henry",male,35,0,0,373450,8.05,,S
+6,0,3,"Moran, Mr. James",male,,0,0,330877,8.4583,,Q
+7,0,1,"McCarthy, Mr. Timothy J",male,54,0,0,17463,51.8625,E46,S
+8,0,3,"Palsson, Master. Gosta Leonard",male,2,3,1,349909,21.075,,S
+9,1,3,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27,0,2,347742,11.1333,,S
+10,1,2,"Nasser, Mrs. Nicholas (Adele Achem)",female,14,1,0,237736,30.0708,,C
+11,1,3,"Sandstrom, Miss. Marguerite Rut",female,4,1,1,PP 9549,16.7,G6,S
+12,1,1,"Bonnell, Miss. Elizabeth",female,58,0,0,113783,26.55,C103,S
+13,0,3,"Saundercock, Mr. William Henry",male,20,0,0,A/5. 2151,8.05,,S
+14,0,3,"Andersson, Mr. Anders Johan",male,39,1,5,347082,31.275,,S
+15,0,3,"Vestrom, Miss. Hulda Amanda Adolfina",female,14,0,0,350406,7.8542,,S
+16,1,2,"Hewlett, Mrs. (Mary D Kingcome)",female,55,0,0,248706,16.0,,S
+17,0,3,"Rice, Master. Eugene",male,2,4,1,382652,29.125,,Q
+18,1,2,"Williams, Mr. Charles Eugene",male,,0,0,244373,13.0,,S
+19,0,3,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",female,31,1,0,345763,18.0,,S
+20,1,3,"Masselmani, Mrs. Fatima",female,,0,0,2649,7.225,,C
+21,0,3,"Smith, Mr. John",male,33,1,0,347742,11.3288,,S
+22,0,3,"Smith, Mr. John",male,,0,0,113783,13.839,,C
+23,0,2,"Miller, Mr. Charles",male,52,0,0,2649,20.3187,,C
+24,1,1,"Davis, Miss. Emma",female,,0,1,347742,88.2861,,S
+25,0,3,"Miller, Mrs. Charles (Helen)",female,36,1,0,2649,10.3291,,S
+26,1,3,"Smith, Mr. John",male,19,0,0,113783,15.2692,,S
+27,0,2,"Brown, Mr. William",male,9,0,1,347742,29.2856,,S
+28,0,3,"Brown, Mr. William",male,20,0,0,113803,19.9599,A12,C
+29,0,3,"Jackson, Miss. Florence",female,,1,0,237736,10.7715,D56,Q
+30,1,3,"Wilson, Miss. Margaret",female,,1,0,248706,9.0024,,S
+31,1,1,"Anderson, Mr. Joseph",male,22,0,0,330877,134.4275,,S
+32,1,2,"Jones, Mr. Robert",male,1,2,0,347742,24.6582,E46,S
+33,1,1,"Taylor, Miss. Annie",female,40,1,1,237736,47.4685,F33,S
+34,1,3,"Moore, Mr. Thomas",male,38,1,0,345763,15.6942,E46,C
+35,0,3,"Smith, Mr. John",male,,0,0,PC 17599,5.1079,,S
+36,0,3,"Taylor, Mr. Henry",male,25,2,0,373450,12.0901,C103,S
+37,0,1,"Jones, Mr. Robert",male,21,1,0,113783,197.2289,,C
+38,0,3,"Jones, Mr. Robert",male,,0,0,373450,11.9394,D56,Q
+39,1,1,"Moore, Mrs. Thomas (Clara)",female,57,0,0,350406,62.4058,,S
+40,1,1,"Anderson, Mr. Joseph",male,23,0,0,349909,152.8384,B78,S
+41,0,2,"Brown, Mrs. William (Sarah)",female,7,0,0,113803,35.5816,,Q
+42,1,3,"Jackson, Mr. Samuel",male,,0,2,13502,13.5451,,S
+43,1,1,"Miller, Mrs. Charles (Helen)",female,22,0,0,PP 9549,79.9822,G6,S
+44,1,3,"Brown, Mrs. William (Sarah)",female,46,0,0,347742,12.5883,E46,S
+45,0,2,"Smith, Mr. John",male,31,0,3,373450,29.6193,F33,S
+46,0,3,"Wilson, Mr. George",male,,0,0,345763,14.0724,,S
+47,0,3,"Miller, Mrs. Charles (Helen)",female,39,0,1,2649,14.5567,,C
+48,1,3,"Wilson, Mr. George",male,,1,0,330877,5.5404,E101,Q
+49,1,2,"Davis, Mr. James",male,38,3,0,2649,20.7343,,S
+50,1,3,"Smith, Mr. John",male,48,3,1,248706,18.2212,,S
+51,0,3,"Taylor, Miss. Annie",female,52,1,0,382652,18.0825,,S
+52,1,2,"Wilson, Miss. Margaret",female,31,0,0,2649,33.1998,A12,C
+53,0,2,"Jackson, Mr. Samuel",male,50,0,3,113783,11.1477,C103,S
+54,1,2,"Anderson, Mrs. Joseph (Bertha)",female,,0,0,347082,23.0817,F33,S
+55,1,2,"Wilson, Miss. Margaret",female,14,1,0,2649,30.0068,G6,S
+56,1,1,"Anderson, Mr. Joseph",male,15,1,0,PP 9549,77.6662,,S
+57,1,1,"Brown, Mrs. William (Sarah)",female,21,0,1,345763,192.9706,,S
+58,1,3,"Brown, Mr. William",male,,0,0,347742,17.0984,,S
+59,0,3,"Moore, Mr. Thomas",male,43,1,0,347742,15.7752,B78,C
+60,1,1,"Taylor, Miss. Annie",female,45,0,1,347742,146.7846,,Q
+61,0,3,"Taylor, Mr. Henry",male,,0,0,248706,9.7595,,Q
+62,0,3,"Miller, Mr. Charles",male,7,0,0,347742,8.7086,A12,C
+63,0,2,"Davis, Mr. James",male,28,0,0,248706,30.8185,,C
+64,0,2,"Smith, Mr. John",male,,0,1,244373,38.3819,E101,C
+65,1,1,"Anderson, Mr. Joseph",male,42,2,0,244373,155.8152,,S
+66,0,1,"Taylor, Mr. Henry",male,,0,0,A/5 21171,53.8828,,Q
+67,1,3,"Taylor, Mr. Henry",male,42,0,0,350406,9.9103,C123,S
+68,1,2,"Wilson, Miss. Margaret",female,34,0,0,PC 17599,11.5626,,S
+69,0,3,"Jackson, Miss. Florence",female,,0,0,237736,15.0419,,C
+70,1,3,"Miller, Mr. Charles",male,29,2,0,350406,5.3852,E101,C
+71,1,3,"Jackson, Mr. Samuel",male,23,0,0,347082,9.5237,,S
+72,1,3,"Moore, Mrs. Thomas (Clara)",female,,0,0,330877,12.353,E46,C
+73,1,2,"Miller, Mrs. Charles (Helen)",female,25,0,0,113803,31.9308,C123,S
+74,0,2,"Wilson, Mr. George",male,55,0,0,349909,24.8292,,C
+75,0,2,"Moore, Mr. Thomas",male,6,0,0,347742,17.2407,B78,Q
+76,1,3,"Miller, Mr. Charles",male,13,0,0,244373,15.3768,E101,S
+77,0,3,"Wilson, Mr. George",male,17,0,0,17463,15.8193,,Q
+78,1,1,"Davis, Miss. Emma",female,24,1,0,347082,196.5894,C85,S
+79,0,1,"Taylor, Mr. Henry",male,24,1,0,19952,176.9807,,S
+80,1,2,"Jones, Mr. Robert",male,67,0,1,113803,13.4226,G6,C
+81,1,3,"Anderson, Mrs. Joseph (Bertha)",female,,2,0,345763,8.7229,C103,S
+82,1,2,"Davis, Miss. Emma",female,16,0,2,113803,12.977,,S
+83,0,1,"Davis, Mr. James",male,,0,0,382652,75.9704,C85,S
+84,1,1,"Jones, Mr. Robert",male,22,0,1,330877,59.6184,F33,S
+85,0,3,"Miller, Mrs. Charles (Helen)",female,,0,0,382652,13.5381,D56,S
+86,0,3,"Miller, Mrs. Charles (Helen)",female,12,0,0,347742,9.8348,,S
+87,1,3,"Smith, Mrs. John (Mary)",female,27,4,0,345763,9.0427,,C
+88,1,3,"Wilson, Miss. Margaret",female,,0,0,113783,6.3686,C103,S
+89,1,3,"Wilson, Miss. Margaret",female,24,1,0,373450,11.8224,,S
+90,1,3,"Davis, Mr. James",male,19,0,0,13502,11.1987,A12,S
+91,1,3,"Jackson, Mr. Samuel",male,35,0,0,PP 9549,6.8214,,S
+92,1,3,"Brown, Mr. William",male,,2,0,345763,6.762,B78,S
+93,0,3,"Jackson, Mr. Samuel",male,46,0,0,113803,7.8592,A12,S
+94,1,2,"Taylor, Miss. Annie",female,42,0,0,2649,27.6081,,C
+95,0,3,"Davis, Mr. James",male,23,2,1,347742,19.7116,E101,C
+96,0,3,"Brown, Mr. William",male,1,3,1,330877,14.7803,B78,S
+97,1,3,"Brown, Mr. William",male,35,0,0,113803,11.8539,C103,S
+98,1,3,"Wilson, Miss. Margaret",female,21,1,1,PC 17599,10.7001,B78,Q
+99,0,3,"Jones, Mr. Robert",male,11,0,0,PP 9549,19.6751,D56,S
+100,0,3,"Brown, Mr. William",male,26,0,0,13502,16.8878,,S
+101,1,3,"Miller, Mr. Charles",male,43,0,0,PP 9549,8.8097,,C
+102,0,3,"Davis, Mr. James",male,19,0,0,373450,17.6796,G6,C
+103,1,1,"Miller, Mr. Charles",male,45,0,2,13502,140.1902,,S
+104,1,3,"Brown, Mrs. William (Sarah)",female,29,0,0,PP 9549,8.7594,,S
+105,0,3,"Davis, Mr. James",male,20,1,0,347082,11.2325,,Q
+106,0,3,"Jones, Miss. Alice",female,26,1,0,330877,10.0807,D56,S
+107,0,3,"Jones, Mr. Robert",male,56,0,1,237736,13.3597,G6,S
+108,1,3,"Smith, Mr. John",male,21,2,0,113783,8.5073,,Q
+109,1,3,"Brown, Mr. William",male,,1,0,PP 9549,11.1244,,S
+110,0,3,"Anderson, Mr. Joseph",male,13,0,0,248706,19.2407,C103,S
+111,1,3,"Wilson, Miss. Margaret",female,37,0,0,2649,8.5417,,S
+112,0,3,"Jones, Mr. Robert",male,,2,2,PC 17599,17.3629,,S
+113,0,3,"Davis, Mr. James",male,,0,1,330877,8.1074,,S
+114,1,3,"Jones, Mr. Robert",male,25,3,0,A/5 21171,16.9777,,S
+115,1,2,"Taylor, Miss. Annie",female,38,0,0,19952,11.9067,E46,Q
+116,0,1,"Taylor, Mr. Henry",male,31,1,1,244373,116.254,,S
+117,0,3,"Brown, Mr. William",male,,0,2,237736,9.8317,,S
+118,0,3,"Jones, Mr. Robert",male,16,0,0,248706,16.8964,F33,S
+119,0,3,"Miller, Mr. Charles",male,42,0,0,244373,11.4015,E46,S
+120,1,1,"Jackson, Miss. Florence",female,,1,1,113783,122.3649,F33,Q
+121,1,3,"Jones, Mr. Robert",male,43,0,0,349909,9.6867,E101,Q
+122,0,1,"Davis, Mr. James",male,24,0,0,13502,73.7494,C103,Q
+123,1,3,"Miller, Mr. Charles",male,,1,0,A/5 21171,7.7062,C123,S
+124,1,1,"Taylor, Mr. Henry",male,50,0,0,347082,90.834,C123,S
+125,0,2,"Smith, Mr. John",male,39,1,0,382652,32.6331,,S
+126,0,3,"Taylor, Mr. Henry",male,26,0,0,PC 17599,15.1773,A12,S
+127,1,1,"Miller, Mrs. Charles (Helen)",female,,2,1,A/5 21171,158.7282,C123,S
+128,0,3,"Wilson, Mr. George",male,,0,0,PC 17599,15.0207,,C
+129,0,2,"Miller, Mr. Charles",male,,0,0,A/5 21171,29.2043,,C
+130,0,3,"Jones, Mr. Robert",male,53,1,0,19952,11.5507,,C
+131,0,2,"Davis, Mr. James",male,29,0,0,330877,25.9181,E46,S
+132,0,1,"Taylor, Mr. Henry",male,,1,0,19952,56.0006,D56,C
+133,1,3,"Miller, Mrs. Charles (Helen)",female,18,0,0,347082,12.0338,,S
+134,0,3,"Anderson, Mr. Joseph",male,54,1,1,19952,14.2251,G6,C
+135,0,3,"Taylor, Miss. Annie",female,36,1,0,PC 17599,9.8229,A12,S
+136,1,3,"Anderson, Mrs. Joseph (Bertha)",female,33,0,0,347082,19.8648,A12,S
+137,0,2,"Jones, Mr. Robert",male,29,0,1,2649,29.4192,C123,S
+138,1,3,"Wilson, Mr. George",male,13,0,0,330877,7.1214,C85,C
+139,0,3,"Anderson, Mrs. Joseph (Bertha)",female,4,1,1,345763,15.0517,,C
+140,0,2,"Brown, Mr. William",male,,2,0,PP 9549,16.7963,,S
+141,0,3,"Moore, Mr. Thomas",male,44,0,1,17463,6.9657,,S
+142,0,3,"Davis, Miss. Emma",female,4,0,0,382652,15.1454,D56,S
+143,0,1,"Miller, Mr. Charles",male,36,0,0,345763,102.1045,G6,Q
+144,0,2,"Wilson, Mr. George",male,,1,0,345763,24.4177,F33,S
+145,0,3,"Davis, Mr. James",male,1,1,0,A/5 21171,11.5621,D56,S
+146,0,2,"Wilson, Mr. George",male,25,0,0,PC 17599,31.4411,,S
+147,1,2,"Jones, Miss. Alice",female,31,1,0,349909,10.1575,,S
+148,0,3,"Jackson, Mr. Samuel",male,23,0,0,373450,11.2974,D56,S
+149,0,3,"Smith, Mr. John",male,28,0,0,347742,9.3691,,S
+150,1,3,"Smith, Mr. John",male,16,0,1,PC 17599,12.6143,G6,C
+151,0,3,"Jones, Miss. Alice",female,26,1,0,330877,15.9941,E101,S
+152,0,1,"Jones, Mr. Robert",male,41,1,0,PP 9549,167.0121,D56,S
+153,1,1,"Taylor, Miss. Annie",female,48,0,0,349909,167.6961,,S
+154,1,2,"Moore, Mrs. Thomas (Clara)",female,,0,1,113783,23.1085,D56,C
+155,1,3,"Brown, Mr. William",male,45,1,0,113783,14.0368,F33,S
+156,0,1,"Taylor, Mr. Henry",male,22,1,0,13502,102.684,,S
+157,0,3,"Smith, Mr. John",male,35,0,1,PC 17599,15.1912,,C
+158,0,1,"Taylor, Mr. Henry",male,28,2,0,382652,51.8517,E46,S
+159,0,3,"Moore, Mr. Thomas",male,13,0,0,237736,12.4857,F33,S
+160,1,3,"Brown, Mrs. William (Sarah)",female,39,1,3,17463,8.0027,,C
+161,0,3,"Jones, Mr. Robert",male,,1,0,PP 9549,10.2114,F33,Q
+162,1,3,"Brown, Mrs. William (Sarah)",female,44,0,0,A/5 21171,8.0147,,C
+163,1,2,"Moore, Mr. Thomas",male,21,0,1,248706,11.9724,B78,Q
+164,1,3,"Wilson, Miss. Margaret",female,,0,0,19952,15.2016,,Q
+165,1,1,"Davis, Miss. Emma",female,31,0,0,PP 9549,81.4656,E46,Q
+166,0,3,"Anderson, Mr. Joseph",male,27,0,0,17463,13.0022,,S
+167,1,3,"Jackson, Miss. Florence",female,37,0,0,19952,14.6218,,S
+168,0,2,"Moore, Mr. Thomas",male,14,0,2,113803,24.4883,C85,C
+169,0,3,"Wilson, Mr. George",male,17,1,0,347082,19.8204,G6,S
+170,0,3,"Moore, Mr. Thomas",male,32,0,0,347742,5.7591,,C
+171,0,3,"Miller, Mrs. Charles (Helen)",female,47,0,3,113803,12.0022,B78,S
+172,0,3,"Taylor, Mr. Henry",male,20,0,0,A/5 21171,12.4234,C85,Q
+173,0,3,"Anderson, Mr. Joseph",male,26,0,0,350406,7.9198,C85,S
+174,1,3,"Moore, Mrs. Thomas (Clara)",female,6,1,0,2649,19.6262,E46,S
+175,1,3,"Wilson, Miss. Margaret",female,,0,0,382652,7.0555,B78,Q
+176,1,1,"Miller, Mrs. Charles (Helen)",female,,0,0,345763,132.8876,E101,S
+177,0,3,"Smith, Mr. John",male,22,0,2,237736,13.7555,,C
+178,1,3,"Jackson, Miss. Florence",female,50,1,0,347742,7.5577,G6,S
+179,0,1,"Moore, Mrs. Thomas (Clara)",female,,0,0,PC 17599,145.8375,A12,C
+180,0,3,"Anderson, Mr. Joseph",male,45,2,0,13502,12.9969,E46,S
+181,0,3,"Davis, Miss. Emma",female,27,2,3,244373,16.5676,B78,S
+182,1,2,"Brown, Mrs. William (Sarah)",female,27,0,3,PP 9549,34.5513,C85,S
+183,0,3,"Miller, Mr. Charles",male,37,1,0,330877,17.4193,F33,S
+184,1,1,"Taylor, Miss. Annie",female,54,0,0,A/5 21171,82.8014,,S
+185,1,3,"Miller, Mrs. Charles (Helen)",female,,1,0,PC 17599,14.7581,C123,S
+186,0,3,"Brown, Mr. William",male,39,1,2,PC 17599,18.6984,C103,S
+187,1,3,"Jones, Mr. Robert",male,63,1,0,382652,13.5194,C123,S
+188,1,3,"Jones, Mr. Robert",male,16,1,0,382652,7.8922,C123,S
+189,0,3,"Jackson, Miss. Florence",female,,0,0,345763,7.8974,G6,C
+190,1,2,"Moore, Mr. Thomas",male,,0,2,237736,10.2049,,C
+191,0,3,"Moore, Mr. Thomas",male,50,0,0,373450,9.6021,A12,S
+192,0,3,"Jackson, Miss. Florence",female,29,2,0,2649,11.8247,E46,C
+193,1,3,"Anderson, Mrs. Joseph (Bertha)",female,38,0,1,19952,12.8826,E46,S
+194,1,1,"Taylor, Miss. Annie",female,8,0,0,19952,174.5351,,S
+195,0,3,"Miller, Mrs. Charles (Helen)",female,34,0,0,237736,15.0915,,C
+196,0,3,"Jones, Miss. Alice",female,30,0,0,PP 9549,19.9119,B78,S
+197,1,2,"Moore, Mrs. Thomas (Clara)",female,46,4,0,2649,36.0886,G6,S
+198,1,1,"Smith, Mrs. John (Mary)",female,,0,0,382652,196.2768,,S
+199,1,3,"Jones, Mr. Robert",male,27,0,0,13502,9.1347,,C
+200,0,3,"Smith, Mrs. John (Mary)",female,,0,0,350406,13.9668,,S
+201,1,2,"Jackson, Mr. Samuel",male,31,0,2,347742,27.2833,,S
+202,0,2,"Brown, Mr. William",male,22,0,0,244373,38.4556,C103,Q
+203,1,1,"Anderson, Mr. Joseph",male,17,0,0,347742,57.1788,B78,S
+204,1,2,"Brown, Mrs. William (Sarah)",female,38,0,2,237736,26.7186,G6,S
+205,1,1,"Jackson, Mr. Samuel",male,33,0,0,349909,142.8926,,S
+206,0,3,"Smith, Mr. John",male,24,0,2,373450,9.5478,,S
+207,0,3,"Taylor, Miss. Annie",female,21,0,0,PP 9549,9.2459,F33,S
+208,0,2,"Davis, Mr. James",male,9,3,0,248706,35.1919,E46,S
+209,1,1,"Davis, Miss. Emma",female,44,1,0,244373,59.3336,G6,S
+210,1,3,"Taylor, Miss. Annie",female,29,0,0,17463,16.0939,,S
+211,1,1,"Jones, Mr. Robert",male,,4,2,248706,116.6903,,S
+212,0,1,"Jackson, Mr. Samuel",male,,0,0,A/5 21171,35.5788,B78,C
+213,0,1,"Moore, Mr. Thomas",male,,0,2,373450,28.0,,S
+214,1,3,"Davis, Mr. James",male,29,0,2,113803,11.885,,S
+215,0,3,"Smith, Mrs. John (Mary)",female,40,0,0,244373,5.8417,,S
+216,1,3,"Jackson, Mr. Samuel",male,67,2,0,PC 17599,18.5191,B78,S
+217,1,3,"Smith, Mrs. John (Mary)",female,23,0,0,350406,17.7564,,S
+218,0,3,"Jones, Mr. Robert",male,5,0,0,PC 17599,16.0962,A12,S
+219,0,1,"Wilson, Mr. George",male,,0,0,382652,194.5611,,S
+220,0,3,"Jackson, Mr. Samuel",male,18,0,0,113803,6.2854,C85,S
+221,0,1,"Wilson, Mr. George",male,14,0,0,330877,78.9468,,S
+222,0,1,"Jackson, Mr. Samuel",male,12,0,0,350406,121.9885,,S
+223,1,1,"Brown, Mr. William",male,27,0,0,PP 9549,144.9303,,S
+224,0,2,"Davis, Mr. James",male,,0,1,382652,20.8337,B78,S
+225,0,1,"Wilson, Mr. George",male,12,0,1,PP 9549,82.6698,C103,S
+226,1,2,"Jackson, Miss. Florence",female,14,0,0,350406,24.7302,,S
+227,1,2,"Anderson, Mrs. Joseph (Bertha)",female,58,0,3,349909,15.3978,,C
+228,0,2,"Brown, Mr. William",male,40,0,0,113803,17.2606,C103,C
+229,0,2,"Smith, Mr. John",male,7,2,1,13502,22.549,E46,Q
+230,0,3,"Moore, Mr. Thomas",male,22,0,3,373450,15.1621,C123,C
+231,0,1,"Moore, Mr. Thomas",male,19,0,0,330877,103.0112,D56,Q
+232,0,2,"Brown, Mr. William",male,,2,0,113783,38.2203,E46,S
+233,0,3,"Jones, Mr. Robert",male,15,0,0,373450,17.1528,,S
+234,0,3,"Taylor, Mr. Henry",male,32,0,0,17463,13.3977,,C
+235,1,1,"Miller, Mrs. Charles (Helen)",female,25,0,0,2649,62.5893,,S
+236,0,1,"Jackson, Mr. Samuel",male,1,1,0,19952,136.844,G6,C
+237,1,1,"Wilson, Mr. George",male,39,2,0,PP 9549,142.6193,,S
+238,0,1,"Taylor, Mr. Henry",male,,0,0,2649,99.0318,F33,S
+239,1,1,"Taylor, Mr. Henry",male,,0,1,350406,191.5723,,S
+240,0,3,"Jones, Mr. Robert",male,48,0,1,347742,12.3305,E101,S
+241,0,2,"Jones, Mr. Robert",male,37,1,0,347082,13.3963,,Q
+242,0,3,"Davis, Miss. Emma",female,40,0,0,382652,16.0398,C85,S
+243,1,2,"Jackson, Miss. Florence",female,,0,1,17463,16.2963,E46,C
+244,1,3,"Miller, Mrs. Charles (Helen)",female,33,0,0,345763,19.685,C85,S
+245,1,3,"Brown, Mrs. William (Sarah)",female,,1,2,330877,19.8873,,S
+246,1,3,"Moore, Mrs. Thomas (Clara)",female,12,0,0,113803,9.0308,G6,C
+247,1,3,"Taylor, Miss. Annie",female,,0,2,113803,10.5361,C123,S
+248,0,3,"Miller, Mr. Charles",male,26,0,0,113783,8.1778,C123,S
+249,1,3,"Taylor, Mr. Henry",male,33,1,1,17463,5.6891,,S
+250,0,2,"Miller, Mr. Charles",male,36,0,0,237736,37.9818,,S
+251,1,1,"Moore, Mrs. Thomas (Clara)",female,46,0,0,A/5 21171,157.1656,,S
+252,0,1,"Brown, Mr. William",male,14,0,0,347742,175.5596,B78,S
+253,1,2,"Brown, Mrs. William (Sarah)",female,,1,0,345763,33.2038,,S
+254,0,3,"Jackson, Mr. Samuel",male,,0,0,113803,18.7984,D56,S
+255,0,3,"Davis, Mr. James",male,,0,0,347742,16.8661,,S
+256,1,3,"Miller, Mr. Charles",male,28,1,1,13502,14.8761,,Q
+257,1,3,"Jackson, Miss. Florence",female,54,0,0,A/5 21171,12.4937,,Q
+258,1,3,"Taylor, Miss. Annie",female,,0,0,19952,15.2441,,S
+259,0,1,"Anderson, Mr. Joseph",male,,1,0,350406,134.9999,C103,C
+260,0,1,"Brown, Mr. William",male,40,0,0,350406,60.5596,F33,S
+261,0,3,"Moore, Mrs. Thomas (Clara)",female,21,2,0,13502,8.6672,,C
+262,0,3,"Brown, Mr. William",male,20,0,0,345763,15.5225,B78,S
+263,1,3,"Wilson, Miss. Margaret",female,13,1,0,345763,18.4985,C103,S
+264,1,1,"Jackson, Miss. Florence",female,43,0,0,17463,112.4318,,S
+265,0,2,"Taylor, Mr. Henry",male,28,0,1,330877,17.3365,E46,C
+266,1,1,"Davis, Miss. Emma",female,,1,0,237736,64.2902,C103,S
+267,0,3,"Smith, Mr. John",male,,0,0,382652,12.7366,G6,S
+268,0,3,"Miller, Mrs. Charles (Helen)",female,18,0,0,382652,9.3739,,S
+269,1,2,"Smith, Mrs. John (Mary)",female,31,1,0,347082,37.9719,,Q
+270,0,3,"Miller, Mrs. Charles (Helen)",female,,1,0,345763,16.0712,,S
+271,1,3,"Davis, Mr. James",male,7,0,0,347082,5.6585,A12,C
+272,0,3,"Brown, Mrs. William (Sarah)",female,9,0,0,237736,14.9367,,S
+273,1,3,"Davis, Miss. Emma",female,27,0,0,330877,8.5042,,S
+274,1,1,"Jones, Mr. Robert",male,39,0,0,13502,174.1844,,S
+275,1,1,"Miller, Mrs. Charles (Helen)",female,36,0,0,A/5 21171,114.8554,,S
+276,0,3,"Davis, Miss. Emma",female,22,1,0,350406,5.925,,S
+277,0,2,"Jones, Mr. Robert",male,28,0,1,330877,10.654,,C
+278,1,1,"Taylor, Miss. Annie",female,50,2,0,248706,151.7754,,C
+279,0,1,"Davis, Mr. James",male,,1,0,248706,133.3559,C85,C
+280,0,3,"Davis, Mr. James",male,,0,0,350406,16.958,F33,S
+281,0,3,"Brown, Mr. William",male,53,2,0,13502,10.8257,,S
+282,1,1,"Jones, Miss. Alice",female,65,1,3,237736,195.4465,,S
+283,1,3,"Moore, Mrs. Thomas (Clara)",female,42,2,0,17463,19.74,E46,S
+284,1,1,"Davis, Mr. James",male,18,0,0,PP 9549,49.8679,B78,Q
+285,0,1,"Jackson, Mr. Samuel",male,,0,0,113783,83.0534,,S
+286,0,3,"Jones, Miss. Alice",female,41,0,0,113803,18.7584,A12,S
+287,1,2,"Taylor, Miss. Annie",female,36,0,2,2649,33.7553,C123,S
+288,0,3,"Miller, Mrs. Charles (Helen)",female,34,0,0,A/5 21171,9.6023,,S
+289,0,3,"Davis, Miss. Emma",female,61,0,2,244373,19.513,E101,S
+290,1,1,"Wilson, Miss. Margaret",female,26,0,1,237736,40.5271,D56,S
+291,1,1,"Moore, Mrs. Thomas (Clara)",female,32,0,0,347082,54.1092,B78,C
+292,1,3,"Jones, Mr. Robert",male,8,0,0,A/5 21171,7.4398,,S
+293,1,2,"Jones, Miss. Alice",female,,0,0,A/5 21171,26.4114,C123,C
+294,1,2,"Anderson, Mrs. Joseph (Bertha)",female,24,3,0,PP 9549,26.6234,,S
+295,1,1,"Miller, Mr. Charles",male,31,0,0,349909,99.831,,C
+296,0,1,"Miller, Mr. Charles",male,45,1,0,350406,181.6036,,Q
+297,1,1,"Miller, Mrs. Charles (Helen)",female,25,0,0,330877,64.5924,E101,S
+298,0,3,"Anderson, Mrs. Joseph (Bertha)",female,,0,2,345763,13.8459,,C
+299,0,2,"Anderson, Mr. Joseph",male,1,0,2,19952,31.4292,E101,Q
+300,0,3,"Davis, Mr. James",male,,0,3,248706,19.5825,,S
+301,1,1,"Jones, Miss. Alice",female,32,0,0,2649,80.9562,,C
+302,0,2,"Moore, Mr. Thomas",male,2,0,0,19952,22.5878,,S
+303,1,3,"Anderson, Mrs. Joseph (Bertha)",female,34,0,0,237736,9.2914,E46,C
+304,0,2,"Wilson, Mr. George",male,40,0,0,244373,11.1635,,S
+305,1,3,"Jones, Miss. Alice",female,,0,0,PP 9549,12.3743,,S
+306,0,3,"Davis, Mr. James",male,32,0,0,345763,7.819,C103,C
+307,1,3,"Smith, Mrs. John (Mary)",female,34,0,1,349909,18.19,,S
+308,1,3,"Anderson, Mr. Joseph",male,40,1,0,A/5 21171,17.3526,G6,S
+309,0,2,"Jones, Mr. Robert",male,45,0,1,350406,17.7598,C85,S
+310,1,1,"Moore, Mrs. Thomas (Clara)",female,24,0,0,A/5 21171,61.1779,A12,S
+311,1,3,"Miller, Mr. Charles",male,,0,0,347082,19.1451,C103,C
+312,0,3,"Wilson, Mr. George",male,10,0,3,PP 9549,19.4973,F33,S
+313,0,3,"Miller, Mr. Charles",male,27,0,0,345763,14.8418,,S
+314,1,3,"Miller, Mrs. Charles (Helen)",female,33,1,0,350406,14.831,,C
+315,0,2,"Anderson, Mr. Joseph",male,12,0,0,345763,16.6709,B78,S
+316,0,2,"Brown, Mr. William",male,19,1,0,347742,26.7709,C123,S
+317,1,2,"Jones, Miss. Alice",female,24,0,0,19952,18.8215,B78,S
+318,0,3,"Brown, Mr. William",male,32,0,0,113783,18.0627,,S
+319,0,2,"Taylor, Mr. Henry",male,36,0,0,113783,33.3682,C123,S
+320,1,3,"Jackson, Mr. Samuel",male,30,0,1,350406,6.3206,C103,C
+321,0,2,"Anderson, Mr. Joseph",male,,1,2,A/5 21171,36.7602,,S
+322,0,3,"Brown, Mr. William",male,21,0,0,PP 9549,13.8301,,S
+323,0,3,"Davis, Mr. James",male,15,0,3,A/5 21171,12.3527,,C
+324,1,1,"Smith, Mrs. John (Mary)",female,,0,0,2649,89.1535,G6,S
+325,0,3,"Taylor, Mr. Henry",male,,1,0,2649,6.7368,G6,S
+326,1,2,"Anderson, Mrs. Joseph (Bertha)",female,25,0,0,248706,13.0294,,S
+327,0,3,"Anderson, Mr. Joseph",male,35,0,0,248706,8.9449,,S
+328,0,2,"Jones, Mr. Robert",male,34,2,0,330877,10.0821,,C
+329,1,3,"Miller, Mrs. Charles (Helen)",female,,1,0,PC 17599,11.8513,,C
+330,0,1,"Jones, Mr. Robert",male,,1,0,330877,154.2445,,S
+331,1,3,"Moore, Mr. Thomas",male,11,0,1,237736,7.743,G6,C
+332,0,3,"Smith, Mrs. John (Mary)",female,34,1,0,248706,6.9877,,S
+333,1,3,"Brown, Mr. William",male,12,0,1,373450,18.1993,B78,C
+334,0,3,"Jackson, Mr. Samuel",male,,0,1,113783,12.8723,E101,S
+335,0,3,"Moore, Mrs. Thomas (Clara)",female,34,1,0,13502,14.9557,,Q
+336,1,1,"Taylor, Mr. Henry",male,,1,1,113783,38.1014,C123,S
+337,0,3,"Taylor, Mr. Henry",male,21,0,1,373450,11.7215,D56,S
+338,0,3,"Jackson, Miss. Florence",female,,0,0,345763,17.3886,,S
+339,0,3,"Wilson, Miss. Margaret",female,17,1,1,347082,17.6648,F33,C
+340,1,3,"Jones, Mr. Robert",male,32,2,0,244373,12.8298,,S
+341,1,1,"Moore, Mrs. Thomas (Clara)",female,39,0,0,349909,187.7878,,C
+342,0,3,"Anderson, Mr. Joseph",male,53,1,0,A/5 21171,14.8769,,C
+343,1,3,"Brown, Mr. William",male,18,0,0,330877,18.8174,E101,S
+344,1,1,"Moore, Mrs. Thomas (Clara)",female,16,0,0,382652,68.4418,C123,S
+345,1,3,"Wilson, Mr. George",male,56,0,1,349909,13.2171,F33,S
+346,1,1,"Wilson, Miss. Margaret",female,34,3,0,2649,119.936,,S
+347,0,3,"Moore, Mr. Thomas",male,26,1,1,373450,9.2889,,Q
+348,0,1,"Miller, Mr. Charles",male,37,0,0,PC 17599,171.8918,,Q
+349,0,2,"Moore, Mr. Thomas",male,52,0,0,PP 9549,29.4136,,Q
+350,0,3,"Davis, Mr. James",male,8,2,0,347742,16.155,,C
+351,1,3,"Davis, Miss. Emma",female,39,0,0,17463,16.6422,C85,C
+352,0,3,"Miller, Mr. Charles",male,29,0,0,382652,7.4139,,S
+353,0,3,"Miller, Mr. Charles",male,,0,2,347082,14.2341,B78,Q
+354,1,1,"Anderson, Mrs. Joseph (Bertha)",female,21,0,1,113803,52.8898,F33,C
+355,1,2,"Smith, Mrs. John (Mary)",female,22,0,0,382652,26.84,,S
+356,0,2,"Jones, Mr. Robert",male,40,0,1,2649,21.4412,G6,S
+357,0,3,"Wilson, Mr. George",male,32,0,0,373450,14.7729,A12,S
+358,0,1,"Moore, Mrs. Thomas (Clara)",female,12,0,0,2649,160.3769,,S
+359,0,3,"Smith, Mrs. John (Mary)",female,6,1,0,PC 17599,15.753,,S
+360,1,1,"Moore, Mr. Thomas",male,,2,0,A/5 21171,103.947,C103,S
+361,0,2,"Jones, Mr. Robert",male,,0,0,373450,11.3655,E46,Q
+362,1,2,"Smith, Mrs. John (Mary)",female,37,2,0,2649,34.6637,B78,S
+363,1,1,"Wilson, Miss. Margaret",female,34,0,1,2649,193.9389,,Q
+364,0,1,"Wilson, Mr. George",male,20,0,0,345763,61.7593,,C
+365,1,1,"Anderson, Mr. Joseph",male,29,0,0,113803,156.4323,D56,Q
+366,0,2,"Davis, Mr. James",male,,0,0,13502,13.8465,,S
+367,0,1,"Jackson, Mr. Samuel",male,36,0,0,248706,51.6691,E46,S
+368,0,1,"Taylor, Mr. Henry",male,25,0,0,347082,83.0235,D56,C
+369,0,3,"Anderson, Mr. Joseph",male,,0,0,113803,17.3967,,S
+370,1,3,"Davis, Miss. Emma",female,9,1,0,237736,16.538,,Q
+371,0,3,"Taylor, Miss. Annie",female,29,1,0,113803,9.365,A12,Q
+372,1,2,"Anderson, Mr. Joseph",male,16,1,0,17463,14.9753,,C
+373,1,1,"Jones, Miss. Alice",female,48,0,0,347742,110.3374,,S
+374,0,1,"Wilson, Mr. George",male,25,0,0,237736,33.1266,,Q
+375,0,3,"Moore, Mr. Thomas",male,39,0,1,350406,12.7499,,Q
+376,1,2,"Brown, Mrs. William (Sarah)",female,44,0,0,345763,14.169,,S
+377,0,3,"Wilson, Mr. George",male,,1,0,244373,8.4552,,C
+378,0,3,"Jackson, Mr. Samuel",male,21,0,0,17463,12.6896,,S
+379,0,2,"Miller, Mr. Charles",male,35,0,0,382652,31.5864,,S
+380,0,3,"Anderson, Mr. Joseph",male,32,0,1,113783,14.3482,,S
+381,0,3,"Anderson, Mr. Joseph",male,,0,0,13502,12.8407,C103,S
+382,0,1,"Taylor, Mr. Henry",male,44,1,0,A/5 21171,45.5654,,Q
+383,0,3,"Moore, Mrs. Thomas (Clara)",female,15,0,0,248706,17.0345,E46,S
+384,1,1,"Davis, Mr. James",male,28,0,1,19952,96.5132,,S
+385,0,3,"Miller, Mr. Charles",male,36,0,0,19952,13.7806,F33,C
+386,0,2,"Wilson, Mr. George",male,54,0,1,244373,24.474,F33,Q
+387,1,2,"Brown, Mr. William",male,23,0,0,345763,23.3978,,S
+388,0,2,"Smith, Mr. John",male,8,1,0,244373,38.9371,,S
+389,0,3,"Moore, Mr. Thomas",male,,0,0,PP 9549,10.7649,,Q
+390,0,3,"Miller, Mr. Charles",male,38,0,0,13502,17.0586,,S
+391,1,3,"Jones, Miss. Alice",female,11,0,0,347082,19.6347,,C
+392,1,3,"Jackson, Mr. Samuel",male,51,0,0,237736,13.3867,E46,S
+393,1,1,"Anderson, Mrs. Joseph (Bertha)",female,29,0,0,PP 9549,113.5917,,Q
+394,0,2,"Taylor, Mr. Henry",male,29,0,0,382652,21.3124,,S
+395,0,3,"Davis, Miss. Emma",female,44,0,0,248706,16.8298,,S
+396,1,3,"Wilson, Mr. George",male,,0,0,17463,15.1055,,Q
+397,0,3,"Davis, Mr. James",male,25,1,0,347742,7.995,,S
+398,0,1,"Taylor, Mr. Henry",male,63,0,2,2649,143.2671,,S
+399,1,3,"Anderson, Mrs. Joseph (Bertha)",female,16,0,0,347742,7.7431,,C
+400,0,3,"Brown, Mr. William",male,57,2,0,345763,10.2093,D56,S
+401,0,3,"Miller, Mrs. Charles (Helen)",female,,0,0,237736,14.1917,,Q
+402,0,1,"Miller, Mr. Charles",male,19,1,0,19952,174.5071,D56,S
+403,0,1,"Moore, Mr. Thomas",male,42,0,0,330877,100.6383,,S
+404,0,3,"Miller, Mr. Charles",male,49,0,0,350406,12.2993,F33,S
+405,0,1,"Miller, Mr. Charles",male,52,1,0,2649,155.3038,E46,S
+406,1,3,"Anderson, Mrs. Joseph (Bertha)",female,17,0,0,347082,14.748,,S
+407,0,2,"Brown, Mr. William",male,36,0,0,248706,23.9126,,S
+408,0,3,"Moore, Mr. Thomas",male,37,0,0,347082,9.0121,,C
+409,0,3,"Miller, Mr. Charles",male,33,1,0,17463,8.5194,,S
+410,0,2,"Jackson, Mr. Samuel",male,25,0,3,350406,13.1179,,S
+411,0,2,"Wilson, Mr. George",male,30,0,1,382652,10.8571,C123,C
+412,0,3,"Jackson, Mr. Samuel",male,1,0,0,2649,14.4657,C103,Q
+413,0,2,"Miller, Mr. Charles",male,42,0,0,345763,17.7942,,S
+414,1,3,"Moore, Mrs. Thomas (Clara)",female,26,2,0,A/5 21171,5.137,C85,S
+415,0,3,"Moore, Mr. Thomas",male,30,0,0,113803,14.6899,,S
+416,0,2,"Moore, Mr. Thomas",male,51,0,0,17463,34.2643,,S
+417,0,1,"Brown, Mr. William",male,16,1,0,A/5 21171,81.1127,,Q
+418,0,1,"Miller, Mr. Charles",male,25,0,0,382652,84.8347,B78,S
+419,0,3,"Anderson, Mr. Joseph",male,,0,0,349909,10.8863,B78,S
+420,0,3,"Taylor, Mr. Henry",male,7,3,0,349909,10.772,,S
+421,1,3,"Smith, Mrs. John (Mary)",female,42,0,0,373450,14.4375,F33,Q
+422,1,2,"Moore, Mr. Thomas",male,,1,0,17463,13.3879,C123,S
+423,0,3,"Jackson, Mr. Samuel",male,28,2,0,113803,15.3613,,S
+424,0,2,"Anderson, Mr. Joseph",male,10,0,0,244373,14.6176,,S
+425,1,1,"Moore, Mrs. Thomas (Clara)",female,57,1,0,237736,58.7689,E46,S
+426,0,3,"Miller, Mr. Charles",male,24,0,0,17463,15.986,,Q
+427,0,1,"Moore, Mr. Thomas",male,50,0,0,13502,136.6546,,S
+428,1,3,"Anderson, Mrs. Joseph (Bertha)",female,24,0,0,113783,12.4632,,S
+429,0,2,"Smith, Mr. John",male,,0,2,244373,15.3592,,S
+430,0,1,"Smith, Mr. John",male,9,0,0,13502,128.3027,E46,S
+431,1,3,"Moore, Mr. Thomas",male,12,0,0,13502,10.4139,E46,S
+432,0,2,"Davis, Mr. James",male,,2,2,349909,12.9136,F33,C
+433,1,1,"Jackson, Miss. Florence",female,3,0,0,248706,155.569,E46,C
+434,0,3,"Taylor, Mr. Henry",male,,0,0,2649,19.9765,E46,S
+435,0,3,"Anderson, Mr. Joseph",male,31,0,0,382652,8.2089,,S
+436,1,2,"Miller, Mr. Charles",male,15,0,0,347742,39.8024,,S
+437,1,1,"Jones, Mr. Robert",male,54,0,0,347082,125.0321,,C
+438,0,1,"Jackson, Mr. Samuel",male,20,0,0,113783,124.8353,,S
+439,1,3,"Jackson, Mr. Samuel",male,23,0,0,PC 17599,15.9618,G6,S
+440,0,3,"Jackson, Mr. Samuel",male,12,2,0,PC 17599,16.5559,,C
+441,0,2,"Taylor, Mr. Henry",male,39,0,0,113803,21.7865,,Q
+442,0,1,"Moore, Mr. Thomas",male,43,0,0,350406,33.6294,,S
+443,0,3,"Davis, Miss. Emma",female,,0,0,347742,14.7837,F33,Q
+444,0,2,"Wilson, Mr. George",male,22,0,0,PP 9549,15.7147,,S
+445,1,1,"Davis, Mr. James",male,13,0,0,330877,186.7373,,S
+446,0,3,"Miller, Mrs. Charles (Helen)",female,,2,2,373450,18.0313,,S
+447,0,2,"Brown, Mr. William",male,29,1,0,19952,28.6913,,C
+448,0,3,"Taylor, Mr. Henry",male,20,0,0,350406,9.0692,,S
+449,0,3,"Anderson, Mrs. Joseph (Bertha)",female,24,1,0,244373,19.6969,,S
+450,0,3,"Davis, Mr. James",male,,0,2,113783,5.3223,A12,S
+451,1,3,"Anderson, Mrs. Joseph (Bertha)",female,,0,0,237736,19.9399,,S
+452,0,3,"Moore, Mrs. Thomas (Clara)",female,32,0,0,350406,7.2756,,S
+453,1,3,"Taylor, Miss. Annie",female,22,0,0,349909,14.0805,F33,S
+454,0,3,"Brown, Mr. William",male,16,0,0,19952,18.4796,C103,S
+455,0,3,"Moore, Mr. Thomas",male,36,1,0,382652,16.4815,C103,S
+456,1,3,"Smith, Mrs. John (Mary)",female,25,0,0,13502,6.9732,,S
+457,0,3,"Wilson, Mr. George",male,24,0,0,244373,14.0707,,C
+458,0,3,"Davis, Mr. James",male,17,2,2,113803,19.253,,S
+459,1,1,"Jackson, Miss. Florence",female,13,1,0,350406,160.8376,G6,S
+460,1,3,"Taylor, Miss. Annie",female,14,1,1,347742,12.8097,D56,S
+461,0,3,"Miller, Mr. Charles",male,14,0,0,17463,10.9706,C85,C
+462,0,2,"Anderson, Mr. Joseph",male,,0,1,19952,23.5509,,S
+463,0,3,"Davis, Miss. Emma",female,,0,0,237736,13.8547,D56,S
+464,0,2,"Wilson, Mr. George",male,24,1,0,350406,31.1868,,Q
+465,0,3,"Brown, Mrs. William (Sarah)",female,36,0,0,17463,18.0696,,S
+466,0,3,"Brown, Mr. William",male,44,2,0,13502,7.7104,,S
+467,0,3,"Taylor, Mr. Henry",male,4,0,0,113803,14.8921,C103,C
+468,0,3,"Brown, Mr. William",male,30,0,1,347082,8.1146,,S
+469,1,1,"Miller, Mrs. Charles (Helen)",female,33,0,0,17463,56.1935,,Q
+470,0,3,"Jones, Miss. Alice",female,18,1,0,113803,18.4629,C103,Q
+471,0,2,"Anderson, Mr. Joseph",male,27,1,0,13502,13.2791,,C
+472,1,3,"Wilson, Miss. Margaret",female,43,0,0,345763,19.9254,,C
+473,0,3,"Jones, Mr. Robert",male,37,0,0,248706,11.9733,,C
+474,0,1,"Jones, Mr. Robert",male,23,0,0,345763,69.5231,C85,S
+475,0,3,"Brown, Mrs. William (Sarah)",female,,0,0,113783,19.4017,,S
+476,0,3,"Taylor, Mr. Henry",male,37,0,1,345763,18.4389,C103,S
+477,1,2,"Wilson, Miss. Margaret",female,29,0,0,237736,33.9861,,S
+478,0,3,"Miller, Mr. Charles",male,21,0,0,237736,16.7352,C123,S
+479,0,2,"Jones, Mr. Robert",male,28,2,0,349909,19.0695,E46,S
+480,0,3,"Anderson, Mr. Joseph",male,,0,0,330877,18.8546,C85,S
+481,0,3,"Jones, Mr. Robert",male,1,0,0,PC 17599,17.9722,,S
+482,0,3,"Miller, Mr. Charles",male,,0,0,349909,14.8848,,S
+483,0,2,"Miller, Mr. Charles",male,25,0,0,13502,14.4796,,S
+484,1,3,"Miller, Mr. Charles",male,19,1,0,2649,7.5691,,S
+485,0,2,"Brown, Mr. William",male,26,0,0,13502,22.794,,C
+486,0,2,"Taylor, Mr. Henry",male,,1,0,113803,37.6835,E101,S
+487,1,3,"Jackson, Miss. Florence",female,9,0,0,350406,8.3569,,S
+488,1,1,"Jones, Miss. Alice",female,33,0,0,382652,36.4389,E46,C
+489,0,3,"Jones, Mr. Robert",male,15,1,0,382652,13.3422,C85,Q
+490,0,2,"Jackson, Mr. Samuel",male,22,3,0,19952,20.2214,C103,C
+491,1,3,"Taylor, Mr. Henry",male,27,0,0,373450,13.8824,C123,Q
+492,0,3,"Moore, Mr. Thomas",male,25,0,1,PC 17599,16.5702,C123,C
+493,0,1,"Moore, Mrs. Thomas (Clara)",female,43,0,0,349909,117.9698,,C
+494,1,1,"Wilson, Miss. Margaret",female,17,0,2,13502,188.9184,,S
+495,0,3,"Anderson, Mr. Joseph",male,,0,0,PP 9549,5.7969,E46,S
+496,0,3,"Taylor, Mr. Henry",male,20,0,0,2649,14.9373,,S
+497,1,2,"Jones, Miss. Alice",female,35,4,0,244373,14.0283,,S
+498,0,3,"Jackson, Miss. Florence",female,,1,1,382652,18.4037,C103,S
+499,0,3,"Anderson, Mr. Joseph",male,24,0,1,2649,8.5512,,C
+500,0,3,"Jones, Mr. Robert",male,,0,0,237736,19.4261,,Q
+501,0,3,"Jones, Mr. Robert",male,37,0,0,13502,19.4062,F33,S
+502,0,1,"Miller, Mr. Charles",male,13,1,0,PC 17599,193.1017,C85,S
+503,1,3,"Jackson, Mr. Samuel",male,33,0,0,13502,13.6721,,S
+504,0,1,"Miller, Mr. Charles",male,,1,0,373450,132.7646,,S
+505,0,3,"Anderson, Mrs. Joseph (Bertha)",female,21,1,0,113803,7.7121,,S
+506,1,3,"Taylor, Mr. Henry",male,18,1,0,19952,10.7475,,S
+507,0,3,"Anderson, Mr. Joseph",male,30,0,0,350406,16.1923,,C
+508,0,3,"Anderson, Mr. Joseph",male,23,2,0,2649,15.1774,,S
+509,0,3,"Moore, Mrs. Thomas (Clara)",female,50,0,0,19952,14.8151,D56,S
+510,1,3,"Jones, Mr. Robert",male,16,0,0,373450,5.1271,,C
+511,0,3,"Davis, Miss. Emma",female,26,0,0,373450,13.9121,,S
+512,1,1,"Jones, Mr. Robert",male,19,0,1,PP 9549,57.3345,,S
+513,0,3,"Brown, Mrs. William (Sarah)",female,37,1,1,PC 17599,9.8511,,S
+514,1,2,"Davis, Mr. James",male,,0,0,17463,24.7517,,C
+515,0,3,"Miller, Mr. Charles",male,24,0,0,113803,11.6237,,S
+516,1,1,"Brown, Mrs. William (Sarah)",female,43,0,0,19952,93.3347,C123,C
+517,1,1,"Jones, Miss. Alice",female,29,0,0,A/5 21171,167.1482,F33,S
+518,1,2,"Jones, Miss. Alice",female,39,0,0,113783,11.6558,E46,Q
+519,1,1,"Davis, Mr. James",male,41,0,0,373450,92.2286,C85,C
+520,0,3,"Jackson, Mr. Samuel",male,,1,0,350406,7.8964,,C
+521,0,1,"Smith, Mr. John",male,4,4,0,349909,34.8095,G6,S
+522,1,3,"Jones, Miss. Alice",female,22,1,0,244373,13.6902,,S
+523,0,3,"Jones, Mr. Robert",male,50,0,0,19952,9.6101,D56,S
+524,1,1,"Wilson, Miss. Margaret",female,,0,0,373450,60.4622,G6,S
+525,1,3,"Wilson, Mr. George",male,,1,1,237736,13.8963,,S
+526,0,1,"Jones, Mr. Robert",male,36,0,2,17463,32.1223,,C
+527,0,1,"Moore, Mr. Thomas",male,,0,0,349909,180.2101,B78,S
+528,1,1,"Jones, Mr. Robert",male,30,0,0,248706,132.1087,C85,S
+529,0,1,"Anderson, Mr. Joseph",male,,0,0,382652,158.1974,A12,S
+530,0,3,"Taylor, Miss. Annie",female,36,1,0,17463,19.5286,B78,S
+531,0,3,"Smith, Mr. John",male,26,1,0,17463,5.6498,F33,S
+532,1,3,"Davis, Mr. James",male,,1,0,373450,9.8896,C123,S
+533,1,2,"Taylor, Mr. Henry",male,44,0,0,330877,24.1297,,C
+534,0,1,"Miller, Mr. Charles",male,,0,0,330877,87.7533,,S
+535,0,1,"Brown, Mr. William",male,42,1,0,19952,76.6533,,S
+536,1,3,"Taylor, Miss. Annie",female,,0,3,248706,13.8737,,S
+537,0,3,"Jackson, Mr. Samuel",male,40,1,0,PC 17599,7.2345,,C
+538,0,1,"Davis, Mr. James",male,46,1,1,A/5 21171,104.1772,,Q
+539,0,3,"Miller, Mr. Charles",male,33,0,3,19952,5.239,,C
+540,0,3,"Smith, Mr. John",male,33,1,0,113783,11.9644,,C
+541,0,3,"Jones, Mr. Robert",male,1,0,0,PC 17599,8.1072,,S
+542,0,3,"Jones, Miss. Alice",female,40,0,0,330877,14.7226,F33,S
+543,0,3,"Davis, Mr. James",male,,2,0,347082,19.3866,,S
+544,0,3,"Jones, Mr. Robert",male,34,0,0,2649,12.5218,B78,Q
+545,1,3,"Jones, Mr. Robert",male,20,1,0,17463,18.2597,,C
+546,1,2,"Anderson, Mrs. Joseph (Bertha)",female,,1,0,248706,36.2498,,S
+547,0,3,"Jones, Mr. Robert",male,,0,0,345763,9.3728,,S
+548,0,3,"Anderson, Mr. Joseph",male,10,0,0,PP 9549,15.453,D56,C
+549,0,3,"Miller, Mrs. Charles (Helen)",female,30,0,1,13502,7.2251,D56,S
+550,1,3,"Brown, Mrs. William (Sarah)",female,18,1,0,373450,14.9953,,S
+551,0,1,"Wilson, Mr. George",male,,0,0,347082,31.0706,E46,S
+552,1,2,"Brown, Mrs. William (Sarah)",female,30,1,2,345763,37.8343,,Q
+553,1,2,"Brown, Mrs. William (Sarah)",female,30,2,3,113783,27.2118,E101,C
+554,0,3,"Jones, Miss. Alice",female,38,0,1,13502,11.6896,C123,S
+555,1,3,"Taylor, Mr. Henry",male,43,0,0,350406,13.0762,,Q
+556,0,1,"Wilson, Mr. George",male,58,0,1,347082,89.6852,,S
+557,1,2,"Taylor, Miss. Annie",female,18,1,0,248706,39.7779,C85,S
+558,0,3,"Jackson, Mr. Samuel",male,23,3,0,A/5 21171,10.0313,G6,S
+559,1,2,"Brown, Mrs. William (Sarah)",female,23,1,0,2649,14.1078,G6,S
+560,1,3,"Miller, Mrs. Charles (Helen)",female,14,0,1,PP 9549,7.3104,B78,S
+561,0,2,"Jones, Mr. Robert",male,21,0,0,19952,39.83,,S
+562,1,3,"Miller, Mr. Charles",male,15,0,0,330877,5.2632,,S
+563,1,2,"Wilson, Miss. Margaret",female,,0,0,PP 9549,37.3631,,S
+564,1,3,"Anderson, Mrs. Joseph (Bertha)",female,1,0,0,PP 9549,16.2894,C123,S
+565,1,2,"Moore, Mrs. Thomas (Clara)",female,16,0,0,373450,33.3642,C123,S
+566,1,1,"Anderson, Mr. Joseph",male,27,0,0,248706,191.6867,F33,S
+567,0,3,"Jackson, Mr. Samuel",male,44,0,1,17463,18.3459,A12,S
+568,0,3,"Brown, Mr. William",male,22,1,0,113803,8.3986,,S
+569,0,2,"Smith, Mrs. John (Mary)",female,,0,0,244373,15.8905,A12,S
+570,1,1,"Davis, Mr. James",male,,1,1,17463,186.0172,E101,S
+571,0,3,"Anderson, Mr. Joseph",male,,0,0,345763,10.283,,S
+572,0,3,"Jones, Mr. Robert",male,39,0,2,244373,13.0569,,Q
+573,1,2,"Davis, Mr. James",male,30,0,0,248706,21.3885,A12,S
+574,1,1,"Anderson, Mrs. Joseph (Bertha)",female,,0,1,113783,148.3279,,S
+575,1,3,"Moore, Mr. Thomas",male,28,0,0,244373,19.7744,,S
+576,0,3,"Jones, Mr. Robert",male,,0,0,350406,12.8399,,S
+577,1,2,"Wilson, Mr. George",male,,3,0,373450,39.2562,,C
+578,1,1,"Moore, Mr. Thomas",male,8,1,0,13502,157.353,E46,C
+579,0,3,"Smith, Mrs. John (Mary)",female,36,0,0,113803,19.136,,S
+580,0,3,"Jones, Mr. Robert",male,,0,0,382652,14.3485,A12,C
+581,1,1,"Smith, Mrs. John (Mary)",female,39,0,1,350406,120.6585,C103,S
+582,1,3,"Moore, Mrs. Thomas (Clara)",female,35,1,1,350406,7.4622,,S
+583,0,3,"Brown, Mr. William",male,31,1,0,350406,12.1387,A12,S
+584,0,2,"Wilson, Mr. George",male,19,0,0,113783,13.8459,E46,S
+585,0,2,"Miller, Mr. Charles",male,8,0,0,113803,17.0387,E101,S
+586,0,3,"Anderson, Mr. Joseph",male,,0,0,A/5 21171,11.3371,C103,S
+587,0,3,"Wilson, Mr. George",male,19,1,0,113783,15.1267,B78,Q
+588,0,1,"Anderson, Mr. Joseph",male,39,0,2,237736,38.1812,,S
+589,1,1,"Jones, Miss. Alice",female,31,1,0,244373,83.9467,E101,Q
+590,0,2,"Wilson, Mr. George",male,,0,0,350406,29.9037,,C
+591,0,2,"Brown, Mr. William",male,52,1,0,349909,25.4867,E101,C
+592,1,3,"Smith, Mrs. John (Mary)",female,25,1,2,347082,19.0195,A12,S
+593,1,3,"Jones, Mr. Robert",male,49,1,0,237736,17.9028,,C
+594,0,3,"Taylor, Mr. Henry",male,18,0,0,248706,17.4084,B78,Q
+595,1,2,"Anderson, Mrs. Joseph (Bertha)",female,20,0,1,244373,18.3332,,S
+596,0,3,"Jones, Mr. Robert",male,25,2,2,347742,15.0751,G6,S
+597,1,1,"Miller, Mrs. Charles (Helen)",female,38,1,2,347742,188.0222,B78,S
+598,1,3,"Jones, Miss. Alice",female,38,1,2,237736,8.2701,,S
+599,0,2,"Moore, Mr. Thomas",male,10,0,2,237736,19.4947,B78,S
+600,0,3,"Smith, Mrs. John (Mary)",female,22,2,0,2649,17.6221,,S
+601,1,2,"Taylor, Mr. Henry",male,4,1,0,350406,17.0915,G6,S
+602,0,3,"Wilson, Miss. Margaret",female,48,1,0,237736,11.5827,C103,S
+603,0,3,"Jones, Miss. Alice",female,19,0,1,345763,15.7608,,S
+604,1,1,"Taylor, Mr. Henry",male,18,1,0,350406,57.1544,,S
+605,0,1,"Brown, Mr. William",male,26,0,0,113783,159.3313,,C
+606,0,3,"Jones, Miss. Alice",female,,0,0,17463,9.227,C103,S
+607,0,2,"Jones, Mr. Robert",male,27,0,0,237736,16.8612,D56,S
+608,0,3,"Jackson, Mr. Samuel",male,28,0,0,345763,10.5188,,S
+609,1,2,"Miller, Mrs. Charles (Helen)",female,24,0,1,330877,33.4637,B78,C
+610,0,2,"Brown, Mr. William",male,23,1,0,237736,15.4111,,S
+611,0,1,"Moore, Mr. Thomas",male,12,0,1,248706,195.5199,,C
+612,0,3,"Jackson, Mr. Samuel",male,,0,0,A/5 21171,18.6234,,S
+613,0,2,"Jackson, Mr. Samuel",male,19,0,2,17463,26.7868,,S
+614,1,3,"Brown, Mrs. William (Sarah)",female,35,0,0,347082,5.6624,B78,S
+615,0,3,"Brown, Mr. William",male,39,1,0,330877,9.6952,C123,C
+616,0,3,"Taylor, Miss. Annie",female,20,0,0,244373,7.4533,C103,S
+617,0,1,"Jones, Mr. Robert",male,33,0,1,349909,176.7039,E46,S
+618,0,3,"Jackson, Mr. Samuel",male,,0,2,19952,13.7852,,Q
+619,1,1,"Wilson, Miss. Margaret",female,22,0,3,113783,46.3484,E101,S
+620,1,1,"Smith, Mr. John",male,30,0,2,13502,128.9857,C123,S
+621,0,3,"Wilson, Mr. George",male,26,0,0,2649,14.6547,,S
+622,0,3,"Davis, Mr. James",male,1,2,1,350406,6.3378,,C
+623,1,2,"Brown, Mrs. William (Sarah)",female,38,1,0,347082,30.5489,E46,S
+624,0,3,"Wilson, Mr. George",male,41,0,0,248706,16.3474,,S
+625,0,3,"Anderson, Mr. Joseph",male,50,1,2,382652,12.9092,,S
+626,1,2,"Anderson, Mrs. Joseph (Bertha)",female,24,0,2,19952,35.2461,C103,S
+627,0,1,"Jackson, Mr. Samuel",male,,0,0,237736,140.6497,,S
+628,1,3,"Smith, Mrs. John (Mary)",female,,0,1,PP 9549,17.6436,,C
+629,1,2,"Jones, Miss. Alice",female,5,2,1,373450,16.3321,,S
+630,0,2,"Jackson, Mr. Samuel",male,37,0,0,13502,22.1527,B78,S
+631,1,3,"Smith, Mr. John",male,50,0,0,349909,7.862,,S
+632,1,3,"Taylor, Mr. Henry",male,25,1,0,248706,6.2914,,C
+633,1,1,"Jackson, Mr. Samuel",male,,2,0,PP 9549,175.4644,,S
+634,0,3,"Taylor, Miss. Annie",female,,0,0,PP 9549,19.6923,E101,Q
+635,1,1,"Smith, Mr. John",male,24,1,0,2649,35.6233,C103,S
+636,1,1,"Moore, Mrs. Thomas (Clara)",female,1,0,2,PP 9549,85.6837,,S
+637,0,3,"Taylor, Mr. Henry",male,11,2,1,350406,15.728,,S
+638,1,3,"Jackson, Miss. Florence",female,27,1,1,113803,17.668,,S
+639,0,3,"Miller, Mr. Charles",male,,0,0,2649,19.9065,,S
+640,1,1,"Moore, Mr. Thomas",male,24,1,0,373450,36.1415,,S
+641,1,3,"Brown, Mr. William",male,36,1,1,PC 17599,13.3553,A12,S
+642,0,3,"Anderson, Mr. Joseph",male,33,0,1,373450,19.2108,,Q
+643,0,1,"Taylor, Mr. Henry",male,24,1,0,347082,158.3438,,S
+644,0,2,"Anderson, Mr. Joseph",male,16,0,1,237736,20.2396,,S
+645,1,2,"Davis, Miss. Emma",female,33,0,0,248706,22.6517,,C
+646,1,3,"Anderson, Mrs. Joseph (Bertha)",female,8,0,1,113783,15.7644,,S
+647,0,2,"Jackson, Miss. Florence",female,,1,0,PP 9549,29.244,,Q
+648,1,2,"Miller, Mrs. Charles (Helen)",female,26,1,0,350406,20.3247,A12,S
+649,0,2,"Davis, Mr. James",male,34,1,1,PC 17599,22.1352,C85,S
+650,1,3,"Anderson, Mr. Joseph",male,10,0,0,345763,8.206,F33,S
+651,1,2,"Miller, Mr. Charles",male,,0,0,373450,34.9669,C103,Q
+652,1,3,"Smith, Mrs. John (Mary)",female,21,2,0,347742,13.5865,D56,S
+653,1,3,"Wilson, Miss. Margaret",female,27,0,0,19952,13.9332,C85,S
+654,1,3,"Moore, Mrs. Thomas (Clara)",female,28,1,0,113803,6.4698,C103,S
+655,1,1,"Anderson, Mrs. Joseph (Bertha)",female,39,0,0,19952,127.9419,G6,S
+656,1,3,"Taylor, Mr. Henry",male,44,1,0,345763,6.9069,,Q
+657,1,1,"Jackson, Mr. Samuel",male,23,2,0,373450,191.5688,C103,S
+658,0,2,"Jackson, Mr. Samuel",male,38,0,0,PP 9549,14.2861,C103,S
+659,0,3,"Moore, Mr. Thomas",male,38,0,0,19952,18.0564,B78,S
+660,0,3,"Taylor, Mr. Henry",male,43,0,0,113803,16.4252,,S
+661,0,3,"Taylor, Miss. Annie",female,6,0,0,17463,19.3712,,S
+662,0,3,"Jackson, Mr. Samuel",male,25,0,0,349909,14.2806,,Q
+663,0,3,"Davis, Mr. James",male,,0,2,113803,9.1244,,C
+664,0,3,"Moore, Mr. Thomas",male,12,1,0,113783,11.5553,,Q
+665,0,2,"Brown, Mr. William",male,18,1,0,17463,38.5649,,S
+666,0,1,"Jones, Mr. Robert",male,27,0,0,347742,90.7148,,S
+667,0,3,"Taylor, Mr. Henry",male,30,0,0,347742,11.1061,,C
+668,0,3,"Brown, Mr. William",male,16,0,1,382652,14.7733,C85,C
+669,1,1,"Anderson, Mr. Joseph",male,43,1,0,A/5 21171,99.1567,D56,S
+670,1,3,"Miller, Mrs. Charles (Helen)",female,25,0,0,350406,18.8272,,S
+671,0,3,"Jones, Miss. Alice",female,33,0,0,237736,6.3457,,Q
+672,1,3,"Taylor, Mr. Henry",male,20,1,2,113783,14.5275,,S
+673,0,2,"Brown, Mr. William",male,51,0,0,244373,37.0433,C103,Q
+674,0,3,"Taylor, Mr. Henry",male,32,0,0,350406,17.4813,,S
+675,1,3,"Davis, Mr. James",male,,1,0,347742,11.9404,D56,S
+676,1,3,"Taylor, Miss. Annie",female,25,0,1,237736,8.3172,E46,S
+677,0,3,"Miller, Mrs. Charles (Helen)",female,19,3,0,244373,6.6642,E101,Q
+678,0,1,"Jackson, Mr. Samuel",male,21,0,0,237736,47.3004,,Q
+679,1,1,"Taylor, Miss. Annie",female,12,0,0,PC 17599,123.0203,,C
+680,0,3,"Davis, Mr. James",male,24,0,0,248706,5.652,,S
+681,0,3,"Davis, Mr. James",male,33,1,1,347742,19.854,C103,S
+682,0,1,"Wilson, Mr. George",male,,0,0,373450,29.2041,,S
+683,0,3,"Jones, Miss. Alice",female,34,0,0,113803,11.5779,D56,S
+684,1,3,"Taylor, Miss. Annie",female,13,1,1,13502,5.93,,S
+685,0,3,"Jackson, Mr. Samuel",male,19,0,0,382652,8.4967,,S
+686,1,2,"Taylor, Miss. Annie",female,24,0,2,19952,33.4879,A12,S
+687,0,1,"Moore, Mr. Thomas",male,52,0,0,17463,69.8501,B78,C
+688,1,2,"Miller, Mrs. Charles (Helen)",female,,0,2,330877,32.6312,E101,Q
+689,0,1,"Smith, Mr. John",male,40,0,0,2649,143.7026,,Q
+690,0,3,"Taylor, Mr. Henry",male,,1,1,19952,10.1233,D56,S
+691,1,3,"Davis, Mr. James",male,26,2,0,13502,18.7993,,C
+692,1,1,"Smith, Mr. John",male,35,1,0,113803,95.0547,E46,S
+693,0,2,"Smith, Mr. John",male,,0,2,PP 9549,20.7973,,S
+694,1,1,"Smith, Mrs. John (Mary)",female,19,0,1,373450,184.3636,,C
+695,0,2,"Jackson, Mr. Samuel",male,45,0,0,373450,25.8078,C103,S
+696,1,1,"Smith, Mrs. John (Mary)",female,32,0,2,2649,67.7962,,S
+697,0,2,"Jackson, Mr. Samuel",male,42,0,0,113803,25.2481,B78,S
+698,1,3,"Brown, Mrs. William (Sarah)",female,34,1,0,345763,12.7834,C123,S
+699,0,3,"Smith, Mrs. John (Mary)",female,39,0,2,349909,13.7597,,S
+700,0,3,"Jones, Mr. Robert",male,17,1,0,345763,6.2714,C85,C
+701,0,2,"Taylor, Mr. Henry",male,36,0,0,350406,22.2686,C123,S
+702,0,1,"Miller, Mr. Charles",male,56,0,0,373450,38.6778,,S
+703,0,1,"Miller, Mr. Charles",male,43,0,0,2649,167.7238,,S
+704,0,3,"Taylor, Mr. Henry",male,40,0,0,350406,14.8296,A12,S
+705,1,1,"Taylor, Miss. Annie",female,7,0,0,113783,107.0292,C123,S
+706,1,3,"Miller, Mr. Charles",male,16,0,0,347082,18.1063,,C
+707,0,2,"Smith, Mr. John",male,37,1,0,330877,19.7824,E101,S
+708,1,1,"Moore, Mrs. Thomas (Clara)",female,15,1,3,350406,60.7358,,Q
+709,0,1,"Anderson, Mr. Joseph",male,16,1,0,13502,43.2548,,S
+710,1,3,"Jones, Mr. Robert",male,,0,0,347082,14.8935,D56,S
+711,0,3,"Davis, Mr. James",male,23,0,0,PP 9549,6.0314,,S
+712,1,2,"Taylor, Miss. Annie",female,32,2,0,A/5 21171,25.0743,,S
+713,0,3,"Smith, Mr. John",male,21,0,0,382652,11.9404,,S
+714,1,2,"Brown, Mrs. William (Sarah)",female,22,1,1,382652,22.4516,,C
+715,0,2,"Anderson, Mrs. Joseph (Bertha)",female,44,1,0,349909,36.4767,C85,S
+716,0,3,"Wilson, Mr. George",male,42,0,0,17463,12.5659,C103,C
+717,0,2,"Moore, Mr. Thomas",male,49,0,0,237736,35.6732,,S
+718,1,1,"Davis, Miss. Emma",female,36,0,0,244373,120.975,D56,S
+719,0,3,"Moore, Mrs. Thomas (Clara)",female,,0,0,A/5 21171,13.0198,,S
+720,0,3,"Anderson, Mr. Joseph",male,30,0,0,PP 9549,17.5475,,C
+721,0,2,"Davis, Mr. James",male,,0,0,248706,37.2627,,S
+722,1,1,"Brown, Mr. William",male,33,0,2,248706,41.9056,,S
+723,1,3,"Jones, Miss. Alice",female,15,0,0,17463,8.4861,E46,S
+724,1,1,"Jackson, Miss. Florence",female,,0,0,113803,73.7301,E46,S
+725,0,3,"Jackson, Mr. Samuel",male,15,4,0,373450,16.8689,,S
+726,1,3,"Wilson, Miss. Margaret",female,12,0,0,113783,18.2595,B78,S
+727,1,1,"Smith, Mrs. John (Mary)",female,1,1,0,13502,148.3101,,S
+728,0,3,"Moore, Mr. Thomas",male,20,0,0,347742,8.0302,,S
+729,0,3,"Smith, Mr. John",male,34,0,0,PP 9549,14.654,A12,C
+730,0,3,"Davis, Mr. James",male,24,2,3,345763,17.0218,,C
+731,1,2,"Brown, Mr. William",male,,0,0,113803,29.031,,S
+732,0,1,"Brown, Mr. William",male,37,0,0,248706,106.738,,S
+733,0,1,"Moore, Mr. Thomas",male,11,1,0,244373,195.1972,G6,S
+734,0,2,"Moore, Mr. Thomas",male,36,1,1,PP 9549,10.5943,C103,S
+735,0,3,"Brown, Mr. William",male,29,0,0,330877,6.0791,B78,S
+736,0,3,"Moore, Mr. Thomas",male,45,0,0,244373,11.2373,E46,C
+737,1,2,"Brown, Mrs. William (Sarah)",female,,4,0,237736,37.9639,,C
+738,0,3,"Davis, Miss. Emma",female,23,0,0,PC 17599,11.3606,,C
+739,0,3,"Brown, Mr. William",male,10,0,0,13502,14.0815,,S
+740,0,3,"Jackson, Miss. Florence",female,,0,0,349909,10.7652,,Q
+741,0,3,"Jones, Mr. Robert",male,24,1,0,330877,16.009,,S
+742,0,2,"Jones, Mr. Robert",male,14,0,0,345763,24.7517,,C
+743,0,2,"Jackson, Mr. Samuel",male,34,0,0,349909,13.3071,,S
+744,0,1,"Jackson, Mr. Samuel",male,38,1,0,113803,134.6965,,S
+745,0,2,"Smith, Mr. John",male,19,0,0,373450,11.8317,E101,S
+746,1,1,"Wilson, Miss. Margaret",female,42,2,0,113783,110.0371,,C
+747,1,2,"Wilson, Miss. Margaret",female,40,0,0,382652,20.6809,,S
+748,1,3,"Davis, Mr. James",male,1,0,0,13502,12.9594,E46,C
+749,1,3,"Smith, Mrs. John (Mary)",female,27,2,0,347742,14.5067,C123,C
+750,0,3,"Jones, Mr. Robert",male,29,0,2,13502,18.9627,G6,S
+751,0,1,"Anderson, Mr. Joseph",male,5,0,1,382652,77.736,D56,S
+752,0,3,"Jones, Mr. Robert",male,17,0,2,17463,15.4986,C103,S
+753,0,3,"Anderson, Mr. Joseph",male,25,2,0,113783,14.9821,B78,S
+754,1,3,"Moore, Mrs. Thomas (Clara)",female,48,0,0,347742,15.7616,F33,C
+755,0,1,"Jones, Mr. Robert",male,,1,2,330877,155.3081,E101,S
+756,1,3,"Wilson, Miss. Margaret",female,32,1,2,13502,9.7946,,Q
+757,1,3,"Davis, Mr. James",male,,0,1,330877,9.4524,B78,C
+758,1,3,"Jones, Mr. Robert",male,30,1,0,349909,9.6334,,C
+759,1,3,"Smith, Mrs. John (Mary)",female,39,0,0,350406,17.1563,,C
+760,1,2,"Taylor, Miss. Annie",female,26,0,0,350406,22.6731,E46,C
+761,1,1,"Smith, Mrs. John (Mary)",female,45,0,0,17463,163.4736,C85,C
+762,1,3,"Smith, Mr. John",male,19,0,1,330877,7.9348,E46,S
+763,1,2,"Anderson, Mrs. Joseph (Bertha)",female,30,0,2,330877,13.5204,C123,C
+764,0,3,"Moore, Mr. Thomas",male,,0,0,350406,19.3183,,C
+765,1,2,"Anderson, Mrs. Joseph (Bertha)",female,31,0,0,19952,30.0638,,S
+766,0,3,"Jackson, Mr. Samuel",male,29,0,0,113783,11.5048,,S
+767,1,1,"Anderson, Mrs. Joseph (Bertha)",female,4,1,0,113803,122.3105,A12,C
+768,0,3,"Jackson, Mr. Samuel",male,31,2,2,2649,7.71,,S
+769,0,2,"Smith, Mr. John",male,,0,0,345763,17.7028,,S
+770,1,2,"Anderson, Mrs. Joseph (Bertha)",female,,0,0,382652,11.385,C85,Q
+771,1,1,"Jones, Mr. Robert",male,23,4,0,PC 17599,114.3533,,S
+772,0,1,"Jones, Mr. Robert",male,48,0,0,237736,133.9047,F33,S
+773,1,2,"Anderson, Mrs. Joseph (Bertha)",female,23,0,0,237736,30.8355,,S
+774,0,3,"Moore, Mrs. Thomas (Clara)",female,,0,1,248706,14.0742,,S
+775,1,2,"Wilson, Miss. Margaret",female,25,0,0,347742,12.6692,,S
+776,0,2,"Anderson, Mr. Joseph",male,47,2,1,373450,13.7051,C85,C
+777,1,3,"Wilson, Miss. Margaret",female,11,0,2,13502,10.8434,F33,Q
+778,0,3,"Brown, Mr. William",male,23,1,0,PC 17599,14.8634,G6,S
+779,0,3,"Taylor, Mr. Henry",male,33,0,0,237736,10.31,A12,S
+780,1,3,"Miller, Mr. Charles",male,9,0,0,113803,6.3041,C103,S
+781,0,3,"Smith, Mr. John",male,45,0,2,330877,17.1252,C103,Q
+782,1,3,"Smith, Mr. John",male,40,1,0,347082,14.2443,C103,Q
+783,1,2,"Anderson, Mrs. Joseph (Bertha)",female,39,0,0,113803,38.9394,,S
+784,0,2,"Wilson, Mr. George",male,4,0,0,373450,39.0919,,Q
+785,0,2,"Anderson, Mr. Joseph",male,49,2,2,13502,38.774,,C
+786,0,3,"Brown, Mr. William",male,,0,0,A/5 21171,10.2458,G6,S
+787,0,1,"Brown, Mr. William",male,,0,0,244373,110.2971,,S
+788,0,2,"Taylor, Mr. Henry",male,30,1,0,347082,23.1572,,S
+789,0,3,"Smith, Mr. John",male,28,0,0,244373,9.9682,,S
+790,0,3,"Moore, Mrs. Thomas (Clara)",female,,0,0,330877,6.9115,A12,C
+791,0,1,"Wilson, Mr. George",male,,0,1,248706,66.3884,C103,S
+792,0,3,"Miller, Mr. Charles",male,,0,0,347742,7.8029,,S
+793,1,3,"Davis, Mr. James",male,23,0,0,347742,14.1665,E101,S
+794,0,1,"Anderson, Mr. Joseph",male,32,0,1,347742,91.5617,C85,S
+795,0,2,"Wilson, Mr. George",male,37,0,0,113783,18.4167,C103,S
+796,0,3,"Jackson, Mr. Samuel",male,,0,0,17463,9.2024,,C
+797,0,2,"Wilson, Mr. George",male,45,1,0,13502,20.8171,E101,Q
+798,1,2,"Jones, Miss. Alice",female,40,1,0,349909,32.2776,,S
+799,1,3,"Davis, Miss. Emma",female,,0,0,PC 17599,19.8447,F33,S
+800,1,1,"Jones, Mr. Robert",male,48,0,0,244373,89.0521,C103,S
+801,0,2,"Smith, Mrs. John (Mary)",female,14,0,0,349909,13.868,E101,S
+802,0,3,"Moore, Mr. Thomas",male,55,1,0,349909,16.6906,,S
+803,1,1,"Anderson, Mr. Joseph",male,2,1,1,347742,104.7022,,S
+804,0,2,"Miller, Mr. Charles",male,,0,0,PC 17599,29.1885,,S
+805,0,3,"Anderson, Mr. Joseph",male,29,0,0,248706,6.2487,,S
+806,0,3,"Miller, Mr. Charles",male,29,0,0,A/5 21171,15.9572,,S
+807,1,3,"Jackson, Miss. Florence",female,29,0,0,382652,18.0504,F33,S
+808,1,1,"Moore, Mr. Thomas",male,23,1,0,244373,65.5515,E46,S
+809,1,1,"Miller, Mr. Charles",male,,0,0,17463,152.659,,S
+810,0,3,"Anderson, Mrs. Joseph (Bertha)",female,30,0,0,13502,11.0376,,S
+811,0,1,"Jones, Mr. Robert",male,,1,2,13502,48.1313,,S
+812,1,1,"Davis, Miss. Emma",female,34,1,0,19952,148.8048,,C
+813,1,3,"Smith, Mrs. John (Mary)",female,18,0,0,PP 9549,5.3181,,Q
+814,0,1,"Wilson, Miss. Margaret",female,29,0,0,350406,92.442,C85,S
+815,0,3,"Wilson, Miss. Margaret",female,1,2,0,113803,6.1443,,S
+816,0,3,"Miller, Mr. Charles",male,,0,0,347082,7.2533,,S
+817,0,3,"Smith, Mr. John",male,32,0,2,113783,16.9803,,S
+818,0,1,"Wilson, Mr. George",male,55,0,0,350406,50.3169,,S
+819,1,2,"Davis, Mr. James",male,26,0,0,2649,14.1466,G6,C
+820,0,3,"Davis, Mr. James",male,35,0,0,347082,15.4025,,S
+821,1,1,"Wilson, Miss. Margaret",female,,2,2,PP 9549,35.426,E46,S
+822,1,3,"Brown, Mrs. William (Sarah)",female,16,0,0,350406,8.3688,,S
+823,1,3,"Brown, Mrs. William (Sarah)",female,33,0,0,113803,7.3726,E46,S
+824,0,2,"Anderson, Mr. Joseph",male,32,1,0,248706,14.2034,C85,C
+825,0,3,"Brown, Mr. William",male,36,0,0,248706,7.6037,,C
+826,1,3,"Moore, Mrs. Thomas (Clara)",female,28,2,0,113803,15.6403,,S
+827,0,3,"Anderson, Mrs. Joseph (Bertha)",female,,0,0,382652,7.7554,,S
+828,0,3,"Wilson, Miss. Margaret",female,24,0,0,A/5 21171,6.566,,S
+829,0,1,"Davis, Mr. James",male,,0,2,237736,57.8552,,S
+830,1,1,"Miller, Mr. Charles",male,,0,0,PP 9549,41.3119,,S
+831,0,3,"Wilson, Mr. George",male,33,0,0,373450,15.1203,C103,Q
+832,1,3,"Brown, Mrs. William (Sarah)",female,,0,1,113803,5.5611,,C
+833,0,3,"Anderson, Mr. Joseph",male,48,1,0,113783,19.455,,Q
+834,0,2,"Moore, Mr. Thomas",male,13,2,0,13502,31.3829,,S
+835,0,3,"Jones, Miss. Alice",female,33,1,0,382652,18.013,B78,S
+836,1,2,"Taylor, Miss. Annie",female,,0,0,237736,15.3756,,C
+837,1,3,"Miller, Mr. Charles",male,29,3,0,13502,10.4521,G6,C
+838,0,3,"Smith, Mr. John",male,49,1,0,347742,8.9424,,S
+839,0,3,"Davis, Mr. James",male,,0,0,113803,17.8074,G6,C
+840,0,2,"Moore, Mr. Thomas",male,1,0,0,350406,13.2504,C103,S
+841,0,2,"Taylor, Mr. Henry",male,8,0,0,113783,14.6722,,S
+842,0,3,"Davis, Miss. Emma",female,29,1,1,A/5 21171,19.6784,,S
+843,0,3,"Moore, Mrs. Thomas (Clara)",female,24,0,0,237736,15.6831,A12,S
+844,0,1,"Moore, Mr. Thomas",male,25,2,0,2649,59.7559,B78,C
+845,0,3,"Jones, Mr. Robert",male,16,0,1,113783,13.9569,E101,S
+846,1,3,"Brown, Mrs. William (Sarah)",female,43,1,0,373450,18.4475,B78,S
+847,1,3,"Jackson, Miss. Florence",female,21,1,0,349909,14.5837,,S
+848,1,3,"Davis, Mr. James",male,1,0,0,347082,8.1464,E101,S
+849,0,3,"Wilson, Mr. George",male,1,0,0,345763,11.1558,F33,C
+850,0,3,"Moore, Mr. Thomas",male,29,0,0,248706,7.4399,G6,S
+851,0,3,"Moore, Mrs. Thomas (Clara)",female,32,1,0,13502,5.2464,,C
+852,0,3,"Davis, Mr. James",male,26,0,0,350406,11.3096,D56,Q
+853,1,1,"Moore, Mrs. Thomas (Clara)",female,14,1,0,347742,162.3112,,S
+854,0,3,"Smith, Mr. John",male,50,1,2,A/5 21171,15.0995,C103,S
+855,1,1,"Anderson, Mrs. Joseph (Bertha)",female,6,0,0,13502,100.2534,G6,S
+856,1,3,"Brown, Mrs. William (Sarah)",female,25,0,0,345763,19.6603,G6,S
+857,0,1,"Anderson, Mr. Joseph",male,34,0,1,349909,185.4164,,S
+858,1,1,"Jones, Mr. Robert",male,,0,0,A/5 21171,120.1427,E101,C
+859,0,3,"Miller, Mr. Charles",male,35,0,0,347742,18.4686,,Q
+860,0,3,"Jones, Miss. Alice",female,27,0,0,13502,19.772,,C
+861,0,1,"Davis, Mr. James",male,34,0,1,244373,184.7258,G6,S
+862,0,3,"Brown, Mr. William",male,23,1,0,A/5 21171,11.7632,,S
+863,1,3,"Jackson, Miss. Florence",female,21,0,0,A/5 21171,10.2018,,Q
+864,0,1,"Jones, Miss. Alice",female,29,0,0,113783,176.703,,S
+865,0,1,"Anderson, Mr. Joseph",male,33,0,0,244373,41.0947,C85,C
+866,1,2,"Jackson, Miss. Florence",female,27,1,2,349909,13.0868,C85,S
+867,0,3,"Jackson, Mr. Samuel",male,39,1,1,349909,14.3437,G6,C
+868,0,3,"Anderson, Mr. Joseph",male,37,0,0,A/5 21171,9.4021,E46,C
+869,1,1,"Brown, Mrs. William (Sarah)",female,31,0,0,A/5 21171,90.0406,C123,S
+870,1,2,"Anderson, Mr. Joseph",male,5,0,0,2649,28.0541,,S
+871,1,2,"Moore, Mr. Thomas",male,35,0,2,349909,22.6525,C123,S
+872,1,1,"Jackson, Miss. Florence",female,41,0,0,A/5 21171,92.0001,,S
+873,1,3,"Anderson, Mrs. Joseph (Bertha)",female,27,0,1,113783,11.0422,A12,S
+874,1,3,"Moore, Mr. Thomas",male,,1,0,113783,16.3054,,Q
+875,0,3,"Jones, Mr. Robert",male,46,2,1,PC 17599,19.0656,,S
+876,1,3,"Wilson, Mr. George",male,28,1,0,PC 17599,6.3203,F33,S
+877,1,2,"Moore, Mrs. Thomas (Clara)",female,,0,0,330877,28.3825,,S
+878,1,3,"Anderson, Mr. Joseph",male,41,1,0,19952,15.0235,A12,S
+879,1,3,"Jones, Mr. Robert",male,44,0,0,347742,16.493,E46,Q
+880,0,3,"Davis, Miss. Emma",female,58,0,0,113783,17.2777,B78,S
+881,1,1,"Brown, Mr. William",male,47,1,0,330877,104.4538,A12,S
+882,1,1,"Miller, Mr. Charles",male,41,0,0,330877,53.7344,E101,S
+883,0,3,"Anderson, Mr. Joseph",male,,0,0,237736,12.1436,D56,S
+884,0,1,"Taylor, Mr. Henry",male,17,0,0,373450,83.4044,,S
+885,0,1,"Jones, Mr. Robert",male,33,0,0,373450,115.7582,,S
+886,0,1,"Jackson, Mr. Samuel",male,,0,0,350406,64.6314,G6,C
+887,1,1,"Miller, Mrs. Charles (Helen)",female,35,0,1,A/5 21171,85.8358,,S
+888,1,1,"Brown, Mr. William",male,18,0,0,330877,37.1546,C123,C
+889,0,3,"Smith, Mrs. John (Mary)",female,29,3,1,244373,7.5609,,S
+890,0,3,"Brown, Mr. William",male,50,4,1,373450,12.879,,S
+891,1,2,"Wilson, Miss. Margaret",female,43,3,0,347082,24.5948,D56,S
