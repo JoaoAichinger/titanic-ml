@@ -6,9 +6,9 @@ The main goal is to delevlop data analysis using machine learning and Data Scien
 
 ## How to execute
 
-Run '''pip install -r requirements.txt'''
+Run ```pip install -r requirements.txt```
 
-Execute '''main.py'''
+Execute ```main.py```
 
 ## Structure
 
