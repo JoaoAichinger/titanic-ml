@@ -5,6 +5,6 @@ import pandas as pd
 
 df = dl.load_data('data/titanic.csv')
 df = pr.preprocess(df)
-score = tr.train(df)
+score = tr.forest_train(df)
 
 print(score)
